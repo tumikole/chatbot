@@ -1,0 +1,103 @@
+
+
+.introText{
+  border-radius: 25px;
+  border: 1px solid rgb(0, 195, 255);
+  background: transparent;
+  padding: 0.5rem;
+  }
+
+
+
+body {
+  background:#212531;
+  background: linear-gradient(to right bottom, #2f3441 50%, #212531 50%);
+  height: 95vh;
+  width: 95%;
+}
+
+form{
+  margin: auto;
+  width: 90%;
+
+}
+
+form input{
+  width:100%;
+}
+
+
+.chatBotContainer{
+  color:white;
+  width:20%;
+  margin:auto;
+  background-color: rgba(255, 255, 255, 0.083);
+  height: 50vh;
+}
+
+.chatBotHeader{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap:1em;
+  background-color: rgb(0, 195, 255);
+  padding: 6px;
+  
+  
+}
+
+.chatBotHeader h1{
+  font-size: 1.3rem;
+  padding-top:1rem;
+}
+
+.chatBotHeader button {
+  border-radius: 20px;
+  height:6vh;
+}
+.chatBotBody{
+ display: grid;
+  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  box-sizing: content-box; 
+  justify-self: start;
+  height: 40vh;
+}
+::-webkit-scrollbar {
+  width: 0; 
+  background: transparent; 
+}
+
+
+.chatBotFooter{
+display: flex;
+height:4vh;
+background-color:  rgb(0, 195, 255);
+margin-top: 23rem;
+position:fixed;
+}
+
+
+.chatBotFooter input{
+  width:100%;
+}
+
+.btn-info {
+  color: #000;
+  background-color: #0dcaf0;
+  border-color: #0dcaf0;
+  width: 100% !important;
+}
+
+ 
+.preOpt{
+display : grid;
+grid-template-columns: 1fr;
+  margin-top:.5rem;
+  width: 100% !important;
+
+}
+
+.dataTypes{
+background-color:grey !important;
+}
