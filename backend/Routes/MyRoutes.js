@@ -1,11 +1,12 @@
-const jsonData = require("../messageConfique.json")
+// const jsonData = require("../messageConfiq.json");
+const Data = require('../chatbot.json')
 
+const chatbotData = Data.chatbot.chatbotMessage
 const myRoutes = (app) => {
   app.get('/get_messages', (req, res) => {
-    let data = jsonData.siaChatbotTree[0]
-    res.send(data)
-    
-  })
+    res.send(chatbotData);
+    console.log('chatbotData', chatbotData)
+  });
 };
 
 module.exports = { myRoutes };

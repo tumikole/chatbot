@@ -1,3 +1,0 @@
-export const GET_INTRO_MESSAGE="GET_INTRO_MESSAGE"
-
-
