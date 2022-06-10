@@ -7,100 +7,83 @@
           { "value": "I can't log in" },
           { "message": "Can't login! Please try the following" },
 
-          {"solutions": [
-            { "value": "I can't log in" },
-            { "message": "Can't login! Please try the following" },
-            {
-              "option": "Check internet Connection",
-              "subOptions": {
-                "sub": [
-                  {"option":"1. Fix mobile data problems",
-                    
-                    "subSolutions":[
-                      { "value": "Check internet Connection" },
-                      { "message": "Solution on how to fix mobile data problems." },
+          {
+            "solutions": [
+              {
+                "option": "Check internet Connection",
+                "subOptions": [
+                  { "value": "Check internet Connection" },
+                  { "message": "Solution to internet Connection" },
+                  {
+                    "sub": [
                       {
-                        "solution": "Check that mobile data is turned on and you have a data connection. Open your Settings app and tap Network & internet or Connections and then Mobile data or Cellular data. On some devices, you may need to select Data usage before you find this. Turn Mobile data or Cellular data on. If it's already on, turn it off and on again. Check that there is a data indicator, like 2G, 3G, 4G, or H, next to the signal strength bars at the top of the screen. Sometimes this won't display if you have an active Wi-Fi connection. If this is the case, turn Wi-Fi off and check again. If you don't get a signal data indicator, you may be in an area without coverage. If you can, move to a different area, or go outside, and check your signal again. Tip: If this happens a lot, contact your mobile service provider. Turn airplane mode on and off. Open your Settings app and tap Network & internet or Connections and then Airplane Mode. Depending on your device, these options may be different. Turn Airplane mode on. Wait for 10 seconds. Turn Airplane mode off. Check if the connection problems have been solved. If you still have problems after you complete these steps, contact your mobile service provider."
+                        "option": "1. Fix mobile data problems",
+                        "subSolutions": [
+                          { "value": "Check internet Connection" },
+                          {"message": "Solution on how to fix mobile data problems."
+                          },
+                          {
+                            "solution": "Check that mobile data is turned on and you have a data connection. Open your Settings app and tap Network & internet or Connections and then Mobile data or Cellular data. On some devices, you may need to select Data usage before you find this. Turn Mobile data or Cellular data on. If it's already on, turn it off and on again. Check that there is a data indicator, like 2G, 3G, 4G, or H, next to the signal strength bars at the top of the screen. Sometimes this won't display if you have an active Wi-Fi connection. If this is the case, turn Wi-Fi off and check again. If you don't get a signal data indicator, you may be in an area without coverage. If you can, move to a different area, or go outside, and check your signal again. Tip: If this happens a lot, contact your mobile service provider. Turn airplane mode on and off. Open your Settings app and tap Network & internet or Connections and then Airplane Mode. Depending on your device, these options may be different. Turn Airplane mode on. Wait for 10 seconds. Turn Airplane mode off. Check if the connection problems have been solved. If you still have problems after you complete these steps, contact your mobile service provider."
+                          }
+                        ]
+                      },
+                      {
+                        "option": "2. Fix Wi-Fi problems",
+                        "subSolutions": [
+                          { "value": "Check internet Connection" },
+                          { "message": "! Please try the following" },
+                          {
+                            "solution": "Check that Wi-Fi is turned on and you're connected. Open your Settings app and tap Network & Internet or Connections and then Wi-Fi. Depending on your device, these options may be different. Turn Wi-Fi on. Find the Wi-Fi connection indicator at the top of your screen . If this isn't displayed, or none of the bars are filled in, you may be out of range of a Wi-Fi network. Move closer to the router, check if you have a stronger Wi-Fi connection, and try again. Restart your wireless router, If you are connecting to Wi-Fi at home, check your router's manual for instructions on how to reset it. Often you can: Unplug the router from the electrical outlet and make sure the lights on the router go out. Wait 30 seconds. Plug the router back in and wait 30 seconds for all the lights to come back on. If you still have connectivity issues after you complete these steps, contact your internet service provider or the host of the Wi-Fi network."
+                          }
+                        ]
                       }
-
-                    ]},
-                   {"option":"2. Fix Wi-Fi problems",
-                      "subSolutions":[
-                        { "value": "Check internet Connection" },
-                        { "message": "! Please try the following" },
-                        {
-                          "solution": "Check that Wi-Fi is turned on and you're connected. Open your Settings app and tap Network & Internet or Connections and then Wi-Fi. Depending on your device, these options may be different. Turn Wi-Fi on. Find the Wi-Fi connection indicator at the top of your screen . If this isn't displayed, or none of the bars are filled in, you may be out of range of a Wi-Fi network. Move closer to the router, check if you have a stronger Wi-Fi connection, and try again. Restart your wireless router, If you are connecting to Wi-Fi at home, check your router's manual for instructions on how to reset it. Often you can: Unplug the router from the electrical outlet and make sure the lights on the router go out. Wait 30 seconds. Plug the router back in and wait 30 seconds for all the lights to come back on. If you still have connectivity issues after you complete these steps, contact your internet service provider or the host of the Wi-Fi network."
-                        }
-  
-                      ]}
+                    ]
+                  }
                 ]
-              }
-             
-            },
-            {
-              "option": "Correct email and password",
-              "subOptions": {
-                "sub": [
-                  {"option":"1. Correct email",
-                    "subSolutions":[
-                      { "value": "Correct email and password" },
-                      { "message": "Solution on how to correct email and password." },
-                      {
-                        "solution": "Check that mobile data is turned on and you have a data connection. Open your Settings app and tap Network & internet or Connections and then Mobile data or Cellular data. On some devices, you may need to select Data usage before you find this. Turn Mobile data or Cellular data on. If it's already on, turn it off and on again. Check that there is a data indicator, like 2G, 3G, 4G, or H, next to the signal strength bars at the top of the screen. Sometimes this won't display if you have an active Wi-Fi connection. If this is the case, turn Wi-Fi off and check again. If you don't get a signal data indicator, you may be in an area without coverage. If you can, move to a different area, or go outside, and check your signal again. Tip: If this happens a lot, contact your mobile service provider. Turn airplane mode on and off. Open your Settings app and tap Network & internet or Connections and then Airplane Mode. Depending on your device, these options may be different. Turn Airplane mode on. Wait for 10 seconds. Turn Airplane mode off. Check if the connection problems have been solved. If you still have problems after you complete these steps, contact your mobile service provider."
-                      }
-
-                    ]},
-                   {"option":"2. Correct password",
-                      "subSolutions":[
+              },
+              {
+                "option": "Correct email and password",
+                "subOptions": [
+                  { "value": "Correct email and password" },
+                        {
+                          "message": "Solution on how to correct email and password."
+                        },
+                 { "sub": [
+                    {
+                      "option": "1. Correct email",
+                      "subSolutions": [
                         { "value": "Correct email and password" },
-                        { "message": "Solution on how to correct email and password." },
+                        {
+                          "message": "Solution on how to correct email and password."
+                        },
+                        {
+                          "solution": "Check that mobile data is turned on and you have a data connection. Open your Settings app and tap Network & internet or Connections and then Mobile data or Cellular data. On some devices, you may need to select Data usage before you find this. Turn Mobile data or Cellular data on. If it's already on, turn it off and on again. Check that there is a data indicator, like 2G, 3G, 4G, or H, next to the signal strength bars at the top of the screen. Sometimes this won't display if you have an active Wi-Fi connection. If this is the case, turn Wi-Fi off and check again. If you don't get a signal data indicator, you may be in an area without coverage. If you can, move to a different area, or go outside, and check your signal again. Tip: If this happens a lot, contact your mobile service provider. Turn airplane mode on and off. Open your Settings app and tap Network & internet or Connections and then Airplane Mode. Depending on your device, these options may be different. Turn Airplane mode on. Wait for 10 seconds. Turn Airplane mode off. Check if the connection problems have been solved. If you still have problems after you complete these steps, contact your mobile service provider."
+                        }
+                      ]
+                    },
+                    {
+                      "option": "2. Correct password",
+                      "subSolutions": [
+                        { "value": "Correct email and password" },
+                        { "message": "Solution on how to correct email and password."
+                        },
                         {
                           "solution": "Check that Wi-Fi is turned on and you're connected. Open your Settings app and tap Network & Internet or Connections and then Wi-Fi. Depending on your device, these options may be different. Turn Wi-Fi on. Find the Wi-Fi connection indicator at the top of your screen . If this isn't displayed, or none of the bars are filled in, you may be out of range of a Wi-Fi network. Move closer to the router, check if you have a stronger Wi-Fi connection, and try again. Restart your wireless router, If you are connecting to Wi-Fi at home, check your router's manual for instructions on how to reset it. Often you can: Unplug the router from the electrical outlet and make sure the lights on the router go out. Wait 30 seconds. Plug the router back in and wait 30 seconds for all the lights to come back on. If you still have connectivity issues after you complete these steps, contact your internet service provider or the host of the Wi-Fi network."
                         }
-  
-                      ]}
+                      ]
+                    }
+                  ]
+                }]
+              },
+              {
+                "option": "Reset your password",
+                "sub": [
+                  "First, click the \"Forgot password?\" link below the login form. Then, enter the email address you registered the account with, make sure that \"Reset customer password\" is selected, and click \"Send password reset email.\" You'll be sent an email with instructions on how to reset your password and log into your account. Are you entering your password exactly as it was set? Passwords are case-sensitive, so make sure that you are capitalizing when appropriate, and that you don't have Caps Lock on. Also, note that passwords never contain spaces, so make sure you're not hitting the space bar at the start, end, or middle of entering your password."
                 ]
               }
-             
-            },
-            {
-              "option": "Reset your password",
-              "sub": [
-                "First, click the \"Forgot password?\" link below the login form. Then, enter the email address you registered the account with, make sure that \"Reset customer password\" is selected, and click \"Send password reset email.\" You'll be sent an email with instructions on how to reset your password and log into your account. Are you entering your password exactly as it was set? Passwords are case-sensitive, so make sure that you are capitalizing when appropriate, and that you don't have Caps Lock on. Also, note that passwords never contain spaces, so make sure you're not hitting the space bar at the start, end, or middle of entering your password."
-              ]
-            }
-          ]}
-    ]
-      },
-      {
-        "options": "2. I have problems with Java",
-        "subOption": {
-          "solutions": [
-            { "value": "I have problems with Java" },
-            { "message": "Problem with Java, check the following options" },
-            { "option": "Null pointer exception", "sub": [""] },
-            {
-              "option": "Confusing the comparison operator ( == ) with the assignment operator ( = ).",
-              "sub": [""]
-            },
-            {
-              "option": "Using comparison operator ( == ) instead of the .equals() for checking equal strings.",
-              "sub": [""]
-            }
-          ]
-        }
-      },
-      {
-        "options": "3. The system is down",
-        "subOption": {
-          "solutions": [
-            { "value": "The system is down" },
-            { "message": "The system down, is the system:" },
-            { "option": "Not accessible over the web", "sub": [""] },
-            { "option": "Not accessible over the mobile", "sub": [""] },
-            { "option": "Overload", "sub": [""] }
-          ]
-        }
+            ]
+          }
+        ]
       }
     ]
   }
